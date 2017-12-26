@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/d_home"
+            android:checked="true"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_latest"
+            android:icon="@drawable/d_latest"
+            android:title="@string/menu_latest" />
+        <item
+            android:id="@+id/nav_cat"
+            android:icon="@drawable/d_categories"
+            android:title="@string/menu_category" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/d_favorites"
+            android:title="@string/menu_favorite" />
+        <!--<item-->
+            <!--android:id="@+id/nav_rate"-->
+            <!--android:icon="@drawable/d_rate"-->
+            <!--android:checkable="false"-->
+            <!--android:title="@string/menu_rate" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_more"-->
+            <!--android:icon="@drawable/d_more"-->
+            <!--android:checkable="false"-->
+            <!--android:title="@string/menu_more" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/nav_about"-->
+            <!--android:icon="@drawable/d_about"-->
+            <!--android:checkable="false"-->
+            <!--android:title="@string/menu_about" />-->
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/d_about"
+            android:checkable="false"
+            android:title="@string/menu_privacy" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/d_rate"
+            android:checkable="false"
+            android:title="@string/menu_share" />
+
+    </group>
+
+
+</menu>

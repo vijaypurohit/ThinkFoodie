@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0D47A1</color>
+    <color name="colorPrimaryDark">#1A237E</color>
+    <color name="colorAccent">#1A237E</color>
+
+    <color name="black_light">#666666</color>
+    <color name="drawer_text">#888888</color>
+    <color name="white">#ffffff</color>
+    <color name="app_bg">#E7E7E7</color>
+    <color name="black">#323232</color>
+    <color name="black_category_layer">#CC000000</color>
+    <color name="btn_1">#D936B4</color>
+    <color name="btn_2">#71A1C2</color>
+    <color name="btn_3">#FBBC00</color>
+    <color name="about_title">#353535</color>
+
+    <color name="devby_bg">#E7E7E7</color>
+    <color name="dev_text">#7B7B7B</color>
+</resources>

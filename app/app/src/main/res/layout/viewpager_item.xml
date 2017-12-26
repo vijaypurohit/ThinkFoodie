@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="220dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="220dp"
+        >
+
+        <com.example.util.SquareImageView
+            android:id="@+id/imageView_viewitem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:resizeMode="horizontal|vertical"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_category" />
+        <com.example.util.SquareImageView
+            android:id="@+id/imageView_viewitem2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:resizeMode="horizontal|vertical"
+            android:scaleType="fitXY"
+            android:background="@drawable/black_gradient" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:paddingBottom="5dp"
+            android:layout_alignParentStart="true">
+            <TextView
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:id="@+id/text_homecatanme" />
+
+            <TextView
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:textColor="@color/white"
+                android:singleLine="true"
+                 android:id="@+id/text_homerecipename" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

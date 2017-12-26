@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Think Foodie</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="search">Search</string>
+
+    <string name="dev_by">Developed by:</string>
+     <string name="home_latest">Latest</string>
+    <string name="home_mostviewed">Latest Culinary</string>
+
+    <string name="home_viewall">View All</string>
+    <string name="detail_fav">FAVORITE</string>
+    <string name="detail_share">SHARE</string>
+    <string name="detail_ingredient">Ingredients</string>
+    <string name="detail_direction">Directions</string>
+    <string name="share_message">Download app this link</string>
+
+     <string name="network_msg">No Network Connection!!!</string>
+    <string name="no_data_found">No data found!!</string>
+
+    <!--Drawer Menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_latest">Latest</string>
+    <string name="menu_category">Categories</string>
+    <string name="menu_favorite">Favourites</string>
+    <string name="menu_rate">Rate App</string>
+    <string name="menu_more">More App</string>
+    <string name="menu_share">Share App</string>
+    <string name="menu_about">About Us</string>
+    <string name="menu_privacy">About Us</string>
+
+    <string name="version">Version</string>
+    <string name="author">Author</string>
+    <string name="company">Company</string>
+    <string name="email">Email</string>
+    <string name="website">Website</string>
+    <string name="contact">Contact</string>
+    <string name="about">About</string>
+
+    <string name="favourite_remove">Remove from favorite</string>
+    <string name="favourite_add">Added to favorite</string>
+
+    <string name="more_app_url">https://play.google.com/store/apps/</string>
+
+    <string name="admob_publisher_id"> ca-app-pub-5564805064521056/6737964361 </string>
+    <string name="admob_intertestial_id"> ca-app-pub-5564805064521056/9004308702 </string>
+
+    <!-- youtube -->
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="youtube_api_key">AIzaSyAYJwy6nzCFqgr5LtihRI3YuVBb_34aprw</string>
+</resources>

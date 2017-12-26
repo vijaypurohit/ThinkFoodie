@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.think.foodie"
+
+        manifestPlaceholders = [onesignal_app_id: "54a701e6-8062-4d72-bae3-59580b5ce460",
+                                 onesignal_google_project_number: "REMOTE"]
+
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    lintOptions {
+            checkReleaseBuilds false
+            // Or, if you prefer, you can continue to check for errors in release builds,
+            // but continue the build even when errors are found:
+            abortOnError false
+    }
+
+
+
+    sourceSets { main { res.srcDirs = ['src/main/res', 'src/main/res/xml '] } }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.1.1'
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:design:25.1.1'
+    compile 'com.android.support:cardview-v7:25.1.1'
+    compile 'com.google.android.gms:play-services:9.0.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'me.relex:circleindicator:1.2.2@aar'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
+    compile 'com.onesignal:OneSignal:3.+@aar'
+}
